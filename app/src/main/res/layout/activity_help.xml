@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.shahp.myfirstapp.WelcomeActivity"
-    android:background="@color/activity_welcome">
+    tools:context="com.example.shahp.myfirstapp.HelpActivity">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -21,8 +20,7 @@
 
     </android.support.design.widget.AppBarLayout>
 
-    <include layout="@layout/content_welcome"
-        android:id="@+id/include" />
+    <include layout="@layout/content_help" />
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"
@@ -31,15 +29,5 @@
         android:layout_gravity="bottom|end"
         android:layout_margin="@dimen/fab_margin"
         app:srcCompat="@android:drawable/ic_dialog_email" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|center_horizontal"
-        android:onClick="nextScreen"
-        android:text="@string/lbl_Button_Help"
-        app:layout_anchor="@+id/include"
-        app:layout_anchorGravity="center_vertical|center_horizontal" />
 
 </android.support.design.widget.CoordinatorLayout>

@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">MyFirstApp</string>
     <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="lbl_Button">Go to Welcome</string>
+    <string name="lbl_Button_Help">Help Section</string>
+    <string name="lbl_Button_Web">Launch Website</string>
+    <string name="title_activity_help">HelpActivity</string>
 </resources>
